@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&family=Noto+Sans:wght@300;400&family=Nova+Square&family=Open+Sans:wght@300&family=Poppins&family=Roboto&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-size:18px;
+    font-family: 'Poppins';
+    line-height: 20px;
+    color:#b1b4bd;
+    background-color: #323a45;
+}
+
+a {
+    color: #b1b4bd;
+    font-weight:500;
+}
+
+a:hover {
+    color:rgb(0, 247, 255);
+}
+
+.header-background {
+    position: static;
+    display:block;
+    overflow:visible;
+    top:0;
+    height:auto;
+    min-height:750px;
+    padding-bottom:70px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba,50,58,69,0.9));
+    background-image: linear-gradient(180deg, rgba(50,58,69,0.55), rgba(50,58,69,0.74)), url(images/love.png);
+    flex-direction:column;
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    white-space: normal;
+    object-fit: fill;
+    -o-object-fit: fill;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+.sticky-nav {
+    position: sticky;
+    position:-webkit-sticky;
+    top: 0px;
+    padding: 20px; 
+    z-index:1;
+    -webkit-align-self:auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align:auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-box: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    background-color: rgba(12,32,55,0.5);
+
+}   
+
+.navbar .navbar-brand a {
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: 2.2rem;
+    color: white;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 10 px 6px;
+    outline:none;
+}
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: #fff;
+}
+
+.navbar-toggler span + span {
+    margin-top: 4px;
+    width: 22px;
+}
+
+.navbar-toggler span + span + span {
+    width: 22px;   
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1.4rem 1rem;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    color: rgb(0, 153, 255);
+}
+
+.btn {
+    background-color: rgb(0, 145, 255);
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: #0a3d62;
+    color: white;  
+}
+
+.heading {
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    color: white;
+    margin-top: 180px;
+    margin-bottom: 8px;
+    min-height: 100px;
+}
+
+.pic-intro {
+    min-height: 550px;
+    background-image: -webkit-gradient(linear, right top, right bottom, from(rgba,12,32,51,0.9));
+    background-image: linear-gradient(180deg, rgba(12,32,51,0.55), rgba(12,32,51,0.74)), url(images/success.jpg);
+    background-position: 100% 50%;
+    background-size: auto, cover;
+    background-attachment: scroll, scroll;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+.column-right .section-title {
+    margin-top: 80px;
+    padding: 5rem 2rem 0rem 5rem;
+    font-size: 2.8rem;
+    color:#b1b4bd;
+    font-weight: 500;
+}
+
+    
+.paragraph {
+    margin-top: 15px;
+    padding: 1rem 5rem 1rem 5rem;
+    font-size: 1.1rem;
+    color:#b1b4bd;
+    line-height: 1.4;
+    text-align: justify;
+}
+.pic-sec {
+    min-height: 650px;
+    background-image: -webkit-gradient(linear, right top, right bottom, from(rgba,12,32,51,0.9));
+    background-image: linear-gradient(180deg, rgba(12,32,51,0.55), rgba(12,32,51,0.74)), url(images/passion.jpg);
+    background-position: 100% 50%;
+    background-size: auto, cover;
+    background-attachment: scroll, scroll;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+.skills-section {
+    margin-top: 20px;
+    padding: 10rem 2rem 0rem 10rem;
+    font-size: 2.8rem;
+    font-weight: 500;
+
+}
+
+.project-title-2 {
+    padding: 10rem 2rem 0rem 10rem;
+    font-size: 1.8rem;
+    text-align: right;
+}
+.project-paragraph-1 {
+    margin-top: 15px;
+    padding: 10rem 2rem 0rem 10rem;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    text-align: right;
+}
+.project-paragraph-2 {
+    margin-top: 15px;
+    padding: 10rem 2rem 0rem 10rem;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    text-align: right;
+}
+.fa {
+    font-size: 2rem;
+    color:blue;
+   
+}
+.portfolio {
+    min-height: 750px;
+    overflow: hidden;
+}
+
+.text-left-block {
+    width: 100%;
+    left: 0;
+    height: 100%;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.text-left-block .left-center-text {
+    display: table;
+    position: relative;
+    height: 100vh;
+    padding: 0 10%;
+    text-align: left;
+}
+
+.text-left-block .left-center-text .left-center-part {
+    display: table cell;
+    vertical-align: middle;
+}
+
+.text-left-block .left-center-text .left-center-part h2 {
+    font-weight: 500;
+}
+
+.contact-section {
+    padding: 6rem 0rem 1rem 0rem;
+    font-size: 2.8rem;
+    font-weight:500;
+}
+.contact-left .paragraph {
+    padding: 0rem 3rem 0rem 0rem;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+strong {
+    font-weight: 700;
+}
+.phone-mail-link {
+    color:#fff;
+    font-weight: bold;
+}
+.phone-mail-link:hover {
+    color:#3a3b86;
+}
+
+.copyright {
+    position: absolute;
+    left: 50rem;
+    bottom: -45px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 5rem;
+    z-index: 999;
+}
+.btn {
+    background-color: #8db6ee;
+}
+
+.gotopbtn .fa {
+    font-size: 28px;
+    margin-top: 10px
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height:50px;
+    bottom: 40px;
+    background:#8db6ee;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+.gotopbtn:hover {
+    background-color: #293039;
+}
