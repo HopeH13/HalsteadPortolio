@@ -179,21 +179,21 @@ a:hover {
 .project-title-2 {
     padding: 10rem 2rem 0rem 10rem;
     font-size: 1.8rem;
-    text-align: right;
+    text-align: left;
 }
 .project-paragraph-1 {
     margin-top: 20px;
     padding: 5rem 2rem 0rem 10rem;
     font-size: 1.1rem;
     line-height: 1.4;
-    text-align: right;
+    text-align: left;
 }
 .project-paragraph-2 {
     margin-top: 20px;
     padding: 5rem 2rem 0rem 10rem;
     font-size: 1.1rem;
     line-height: 1.4;
-    text-align: right;
+    text-align: left;
 }
 .fa {
     font-size: 2rem;
